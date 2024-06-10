@@ -1,0 +1,62 @@
+.button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    width: 100%;
+    height: 60px; /* Ensuring equal height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  .button.operation {
+    background-color: #444;
+    color: #af81de;
+  }
+  
+  .button.operation:hover {
+    background-color: #555;
+  }
+  
+  .button.clear {
+    background-color: #444;
+    color: #af81de;
+  }
+  
+  .button.clear:hover {
+    background-color: #555;
+  }
+  
+  .button.delete {
+    background-color: #444;
+    color: #af81de;
+  }
+  
+  .button.delete:hover {
+    background-color: #555;
+  }
+  
+  .button.percentage {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .button.percentage:hover {
+    background-color: #555;
+  }
+  
